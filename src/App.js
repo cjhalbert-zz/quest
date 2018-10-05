@@ -1,11 +1,23 @@
 import React, { Component } from 'react';
+import { Switch, Route } from 'react-router-dom';
 
-class App extends Component {
-  render() {
-    return (
-      <h1>Quest</h1>
-    );
-  }
-}
+import Leaderboard from './components/Leaderboard.js';
+import Assignments from './components/Assignments.js';
+import Syllabus from './components/Syllabus.js';
+
+import Header from './components/Header.js';
+
+const App = () => (
+  <div>
+    <Header />
+    <Switch>
+      <Route exact path="/" component={Leaderboard}></Route>
+      <Route exact path="/assignments" component={Assignments}></Route>
+      <Route exact path="/syllabus" component={Syllabus}></Route>
+    </Switch>
+  </div>
+)
+
+
 
 export default App;

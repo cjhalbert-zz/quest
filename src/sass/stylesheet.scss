@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #F3F3F3;
+}
+
+.card {
+  margin: 2rem;
+  height: 200px;
+  box-shadow: 10px 10px 75px -17px rgba(0,0,0,0.75);
+  background-color: white;
+  padding: 1rem;
+}
+
+@import "header";
+@import "profile";
+@import "leaderboard";

@@ -3,7 +3,11 @@ import PropTypes from 'prop-types'
 
 class Syllabus extends React.Component {
   render () {
-    return <h1>Syllabus</h1>
+    return (
+      <div className="card">
+        <img src=""/>
+      </div>
+    )
   }
 }
 

@@ -4,15 +4,9 @@ import { NavLink } from 'react-router-dom';
 class Header extends React.Component {
   render () {
     return (
-      <header>
-        <nav>
-          <ul>
-            <li><NavLink to="/">Leaderboard</NavLink></li>
-            <li><NavLink to="/assignments">Assignments</NavLink></li>
-            <li><NavLink to="/syllabus">Syllabus</NavLink></li>
-          </ul>
-        </nav>
-      </header>
+        <header className="header">
+          <h1>QUEST</h1>
+        </header>
     )
   }
 }

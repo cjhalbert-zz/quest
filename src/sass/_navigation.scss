@@ -1,0 +1,39 @@
+.nav {
+  height: 80px;
+  width: 100%;
+  background-color: white;
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    li {
+      list-style: none;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 33%;
+      a {
+        text-decoration: none;
+        color: #2D2C2C;
+        font-weight: 700;
+      }
+    }
+  }
+}
+.active {
+  border-bottom: 3px solid #EAB736;
+}
+@media screen and (max-width: 600px) {
+  .nav {
+    ul {
+      li {
+        a {
+          font-size: .8rem;
+        }
+      }
+    }
+  }
+}

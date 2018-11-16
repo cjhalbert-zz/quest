@@ -1,0 +1,26 @@
+.hero {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #85D3DD;
+    color: white;
+    h1 {
+        font-weight: 900;
+        font-size: 3rem;
+    }
+    button {
+        background: none;
+        border: 3px solid white;
+        color: white;
+        padding: 1rem 2rem;
+        border-radius: 5px;
+        margin-left: 3rem;
+        font-size: 1rem;
+        font-weight: 700;
+        cursor: pointer;
+        &:hover {
+            background-color: rgba(237, 237, 237, 0.26);
+        }
+    }
+}
